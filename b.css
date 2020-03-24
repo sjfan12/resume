@@ -1,0 +1,48 @@
+.YinYang{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,
+    #ffffff 0%,#ffffff 50%,#000000 51%,#000000 100%);
+    position: relative;
+}
+.YinYang .one{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    background-color: black;
+}
+.YinYang .two{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    background-color: white;
+}
+.YinYang .one .circle{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    background-color: white;
+}
+.YinYang .two .circle{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: black;
+}
